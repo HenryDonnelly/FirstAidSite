@@ -87,7 +87,7 @@ function App() {
 
     <Text mt={8} fontSize="xl">
       Quality cardiopulmonary resuscitation (QCPR) is a method of performing CPR that 
-      emphasizes the quality of chest compressions and ventilations to improve patient outcomes 
+      emphasizes the quality of chest compressions (and ventilations) to improve patient outcomes 
       during cardiac arrest. QCPR involves monitoring and providing feedback on performance 
       metrics such as compression depth and rate to ensure that 
       rescuers are delivering effective CPR.
@@ -104,7 +104,7 @@ function App() {
 
     <Text mt={8} fontSize="xl">
       The aim of this project is to create an open-source app for QCPR training and feedback,
-      Where users can practive their CPR skills through augmented reality to receive real-time feedback on their performance
+      Where users can practice their CPR skills through augmented reality to receive real-time feedback on their performance
       with the Meta Quest 3 VR headset.
     </Text>
   </Box>
