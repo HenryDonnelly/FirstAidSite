@@ -61,16 +61,16 @@ function App() {
       </AnimatePresence>
 
       {/* Main Content */}
-      <Box height="10vh" width="100vw" bg="lightblue">
+      <Box height="8vh" width="100vw" bg="lightblue">
       <Flex gap="4" justify="space-between">
-      <Box as="a" href="https://github.com/HenryDonnelly/FirstAidMetaQ" height="10vh" width="60" textAlign="center" alignContent="center"><Text fontSize="2xl" fontWeight="bold">
+      <Box as="a" href="https://github.com/HenryDonnelly/FirstAidMetaQ" textAlign="center" alignContent="center" marginTop="-1vh" height="10vh" marginLeft="2vw"><Text fontSize="3vh" fontWeight="bold">
     Download
   </Text></Box>
-      <Box height="10vh" width="60" marginEnd="auto" textAlign="center" alignContent="center"><Link to="/docs">
-            <Text fontSize="2xl" fontWeight="bold">Documentation</Text>
+      <Box height="10vh" marginEnd="auto" textAlign="center" alignContent="center" marginTop="-1vh" marginLeft="2vw"><Link to="/docs">
+            <Text fontSize="3vh" fontWeight="bold">Documentation</Text>
           </Link></Box>
-      <Box height="10vh" width="40" alignContent="center">  <Link to="/">
-<Image src="/vr1.svg" boxSize="100px" /></Link></Box>
+      <Box width="40" alignContent="center" marginTop="-0.5vh">  <Link to="/">
+<Image src="/vr1.svg" boxSize="10vh" /></Link></Box>
     </Flex>
       </Box>
 
@@ -80,12 +80,12 @@ function App() {
   <Flex h="100%">
     {/* Left Section */}
   <Box flex="1" bg="blue.300">
-  <Box pt="30vh" pl="2vw">
-    <Text fontSize="6xl" fontWeight="bold">
+  <Box pt="35vh" pl="2vw">
+    <Text fontSize="4xl" fontWeight="bold">
       What is QCPR?
     </Text>
 
-    <Text mt={8} fontSize="xl">
+    <Text mt={4} fontSize="l">
       Quality cardiopulmonary resuscitation (QCPR) is a method of performing CPR that 
       emphasizes the quality of chest compressions (and ventilations) to improve patient outcomes 
       during cardiac arrest. QCPR involves monitoring and providing feedback on performance 
@@ -97,12 +97,12 @@ function App() {
 
     {/* Right Section */}
       <Box flex="1" bg="blue.400">
-      <Box pt="30vh" pl="2vw" color="white">
-    <Text fontSize="6xl" fontWeight="bold">
+      <Box pt="35vh" pl="2vw" color="white">
+    <Text fontSize="4xl" fontWeight="bold">
       My Goal
     </Text>
 
-    <Text mt={8} fontSize="xl">
+    <Text mt={4} fontSize="l">
       The aim of this project is to create an open-source app for QCPR training and feedback,
       Where users can practice their CPR skills through augmented reality to receive real-time feedback on their performance
       with the Meta Quest 3 VR headset.
