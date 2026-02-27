@@ -13,7 +13,7 @@ function Documentation() {
     </Text>
 
     <Text mt={3} fontSize="l">
-      To run the app, simply download the APK from the download link in the heading which leads to the GitHub project page.
+      To run the app, simply download the APK from the download link in the heading which leads to the google drive location.
     </Text>
 
     <Text fontSize="xl" fontWeight="bold" mt={8}>
