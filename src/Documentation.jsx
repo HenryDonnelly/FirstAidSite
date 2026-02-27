@@ -4,7 +4,7 @@ import { Flex, Spacer } from "@chakra-ui/react"
 
 function Documentation() {
   return (
-  <Box height="90vh" width="100vw" bg="blue.300">
+  <Box height="92vh" width="100vw" bg="blue.300">
     <Flex h="100%">
   <Box flex="1" bg="blue.300">
   <Box pt="14vh" pl="2vw">
@@ -29,7 +29,7 @@ function Documentation() {
     </Text>
 
     <Text mt={3} fontSize="l">
-      When using the app for training, It looks for a compression rate of 100-120 compressions per minute at a depth of 6cm. 
+      When using the app for training, It looks for a compression rate of 100-120 compressions per minute at a depth of 5cm. 
     </Text>
 
     <Text fontSize="xl" fontWeight="bold" mt={8}>

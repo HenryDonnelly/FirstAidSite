@@ -38,7 +38,7 @@ function App() {
               left: 0,
               width: "100vw",
               height: "100vh",
-              backgroundColor: "lightyellow",
+              backgroundColor: "lightblue",
               zIndex: 1000,
             }}
           >
@@ -63,20 +63,23 @@ function App() {
       {/* Main Content */}
       <Box height="8vh" width="100vw" bg="lightblue">
       <Flex gap="4" justify="space-between">
-      <Box as="a" href="https://github.com/HenryDonnelly/FirstAidMetaQ" textAlign="center" alignContent="center" marginTop="-1vh" height="10vh" marginLeft="2vw"><Text fontSize="3vh" fontWeight="bold">
+      <Box as="a" href="https://github.com/HenryDonnelly/FirstAidMetaQ/tree/master" textAlign="center" alignContent="center" marginTop="-1vh" height="10vh" marginLeft="2vw"><Text fontSize="2.5vh" fontWeight="bold">
     Download
   </Text></Box>
-      <Box height="10vh" marginEnd="auto" textAlign="center" alignContent="center" marginTop="-1vh" marginLeft="2vw"><Link to="/docs">
-            <Text fontSize="3vh" fontWeight="bold">Documentation</Text>
+      <Box height="10vh" textAlign="center" alignContent="center" marginTop="-1vh" marginLeft="2vw"><Link to="/docs">
+            <Text fontSize="2.5vh" fontWeight="bold">Documentation</Text>
           </Link></Box>
-      <Box width="40" alignContent="center" marginTop="-0.5vh">  <Link to="/">
+          <Box height="10vh" textAlign="center" marginEnd="auto" alignContent="center" marginTop="-1vh" marginLeft="2vw"><Link to="https://henry-18419.web.app/">
+            <Text fontSize="2.5vh" fontWeight="bold">My Portfolio</Text>
+          </Link></Box>
+      <Box width="40" alignContent="center" marginTop="-0.7vh">  <Link to="/">
 <Image src="/vr1.svg" boxSize="10vh" /></Link></Box>
     </Flex>
       </Box>
 
       <Routes>
         <Route path="/" element={
-      <Box height="90vh" width="100vw" bg="white">
+      <Box height="92vh" width="100vw" bg="white">
   <Flex h="100%">
     {/* Left Section */}
   <Box flex="1" bg="blue.300">
