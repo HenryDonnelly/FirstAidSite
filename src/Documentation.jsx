@@ -8,7 +8,7 @@ function Documentation() {
     <Flex h="100%">
   <Box flex="1" bg="blue.300">
   <Box pt="14vh" pl="2vw">
-    <Text fontSize="xl" fontWeight="bold">
+    <Text fontSize="xl" fontWeight="bold" textDecoration="underline">
       Installation
     </Text>
 
@@ -16,7 +16,7 @@ function Documentation() {
       To run the app, simply download the APK from the download link in the heading which leads to the google drive location.
     </Text>
 
-    <Text fontSize="xl" fontWeight="bold" mt={8}>
+    <Text fontSize="xl" fontWeight="bold" mt={8} textDecoration="underline">
       Using the app
     </Text>
 
@@ -24,7 +24,7 @@ function Documentation() {
       To begin performing QCPR on your Meta Quest 3 headset, first launch the APK from the Download page. Once starting the app, a virtual manikin will appear along with some text on getting started. Align the virtual manikin over your real world manikin (if you have one, otherwise just align the manikin on the floor). Press the "Lock Position" button to lock the manikin in place and press "Begin CPR", once you get in position, you are now ready to begin your QCPR session. 
     </Text>
 
-    <Text fontSize="xl" fontWeight="bold" mt={8}>
+    <Text fontSize="xl" fontWeight="bold" mt={8} textDecoration="underline">
       How to perform CPR
     </Text>
 
@@ -32,7 +32,7 @@ function Documentation() {
       When using the app for training, It looks for a compression rate of 100-120 compressions per minute at a depth of 5cm. 
     </Text>
 
-    <Text fontSize="xl" fontWeight="bold" mt={8}>
+    <Text fontSize="xl" fontWeight="bold" mt={8} textDecoration="underline">
       "How do I give feedback?"
     </Text>
 

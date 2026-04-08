@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Flex, Spacer } from "@chakra-ui/react"
 import { Routes, Route, Link } from "react-router-dom";
 import Documentation from "./Documentation";
+import Demonstration from "./Demonstration";
 
 
 function App() {
@@ -69,7 +70,7 @@ function App() {
       <Box height="10vh" textAlign="center" alignContent="center" marginTop="-1vh" marginLeft="2vw"><Link to="/docs">
             <Text fontSize="2.5vh" fontWeight="bold">Documentation</Text>
           </Link></Box>
-          <Box height="10vh" textAlign="center" alignContent="center" marginTop="-1vh" marginLeft="2vw"><Link to="/docs">
+          <Box height="10vh" textAlign="center" alignContent="center" marginTop="-1vh" marginLeft="2vw"><Link to="/demo">
             <Text fontSize="2.5vh" fontWeight="bold">Demonstration</Text>
           </Link></Box>
           <Box height="10vh" textAlign="center" marginEnd="auto" alignContent="center" marginTop="-1vh" marginLeft="2vw"><Link to="https://henry-18419.web.app/">
@@ -120,6 +121,7 @@ function App() {
         }
         />
   <Route path="/docs" element={<Documentation />} />
+  <Route path="/demo" element={<Demonstration />} />
 </Routes>
     </>
   );
