@@ -9,7 +9,7 @@ function Demonstration() {
   <Box flex="1" bg="blue.300" justifyItems="center" paddingTop="15vh">
 
     <iframe
-        width="600"
+        width="900"
         height="560"
         src="https://www.youtube.com/embed/C9YFn1GDVGo"
         title="YouTube video"

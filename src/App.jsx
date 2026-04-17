@@ -64,18 +64,22 @@ function App() {
       {/* Main Content */}
       <Box height="8vh" width="100vw" bg="lightblue">
       <Flex gap="4" justify="space-between">
-      <Box as="a" href="https://drive.google.com/file/d/1Lg21tDzU60DKRZXsqwr5cDP8hquaVyxN/view?usp=drive_link" textAlign="center" alignContent="center" marginTop="-1vh" height="10vh" marginLeft="2vw"><Text fontSize="2.5vh" fontWeight="bold">
-    Download
-  </Text></Box>
+        <Box height="10vh" textAlign="center" alignContent="center" marginTop="-1vh" marginLeft="2vw"><Link to="/">
+            <Text fontSize="2.5vh" fontWeight="500">Home</Text>
+          </Link></Box>
       <Box height="10vh" textAlign="center" alignContent="center" marginTop="-1vh" marginLeft="2vw"><Link to="/docs">
-            <Text fontSize="2.5vh" fontWeight="bold">Documentation</Text>
+            <Text fontSize="2.5vh" fontWeight="500">Documentation</Text>
           </Link></Box>
           <Box height="10vh" textAlign="center" alignContent="center" marginTop="-1vh" marginLeft="2vw"><Link to="/demo">
-            <Text fontSize="2.5vh" fontWeight="bold">Demonstration</Text>
+            <Text fontSize="2.5vh" fontWeight="500">Demonstration</Text>
           </Link></Box>
-          <Box height="10vh" textAlign="center" marginEnd="auto" alignContent="center" marginTop="-1vh" marginLeft="2vw"><Link to="https://henry-18419.web.app/">
-            <Text fontSize="2.5vh" fontWeight="bold">My Portfolio</Text>
-          </Link></Box>
+          <Box as="a" href="https://drive.google.com/file/d/1Lg21tDzU60DKRZXsqwr5cDP8hquaVyxN/view?usp=drive_link" display="flex" alignItems="center" textAlign="center" alignContent="center" marginTop="-1vh" height="10vh" marginLeft="2vw"><Image src="/dr.svg" boxSize="4vh"/><Text fontSize="2.5vh" fontWeight="500">
+    Download
+  </Text></Box>
+          <Box as="a" href="https://henry-18419.web.app/" display="flex" alignItems="center" height="10vh" textAlign="center" marginEnd="auto" alignContent="center" marginTop="-1vh" marginLeft="2vw">
+            <Image src="/dr.svg" boxSize="4vh"/><Text fontSize="2.5vh" fontWeight="500">My Portfolio</Text>
+          </Box>
+          
       <Box width="40" alignContent="center" marginTop="-0.7vh">  <Link to="/">
 <Image src="/vr1.svg" boxSize="10vh" /></Link></Box>
     </Flex>
